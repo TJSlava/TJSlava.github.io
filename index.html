@@ -29,24 +29,21 @@
 <body>
   <div class="navbar navbar-fixed-top" data-activeslide="1">
     <div class="container">
-
-      <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-
-      <div class="nav-collapse collapse navbar-responsive-collapse">
-        <ul class="nav row">
-          <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-          <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">INFO</CALENDAR></a></li>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li data-slide="1" class="active"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="fa fa-home"></span> <span class="text">HOME</span></a></li>
+          <li data-slide="2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="fa fa-user"></span> <span class="text">INFO</CALENDAR></a></li>
+          <li data-slide="4"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="fa fa-pencil"></span> <span class="text">LOGGER</CALENDAR></a></li>
         </ul>
-        <div class="row">
-          <div class="col-sm-2 active-menu"></div>
-        </div>
-      </div><!-- /.nav-collapse -->
+      </div>
     </div><!-- /.container -->
   </div><!-- /.navbar -->
 
@@ -64,7 +61,7 @@
   <div class="slide story" id="slide-1" data-slide="1">
     <div class="container">
       <div id="home-row-1" class="row clearfix">
-        <div class="col-12">
+        <div class="col-md-12">
           <h1 class="font-semibold">SLAVA <span class="font-thin">TJHSST</span></h1>
           <h4 class="font-thin">We are the <span class="font-semibold">Russian Honor Society</span> of TJ.</h4>
           <br>
@@ -83,47 +80,53 @@
   <div class="slide story" id="slide-2" data-slide="2">
     <div class="container">
       <div class="row title-row">
-        <div class="col-12 font-thin">Contrary to popular belief, <span class="font-semibold">Russian</span> is a very useful language. Slava promotes not only the learning of Russian but also the exploration of Russian culture.</div>
+        <div class="col-md-12 font-thin">Contrary to popular belief, <span class="font-semibold">Russian</span> is a very useful language. Slava promotes not only the learning of Russian but also the exploration of Russian culture.</div>
       </div><!-- /row -->
       <div class="row line-row">
         <div class="hr">&nbsp;</div>
       </div><!-- /row -->
       <div class="row subtitle-row">
-        <div class="col-12 font-thin">This is what <span class="font-semibold">you have to do </span>to be a full member of slava.</div>
+        <div class="col-md-12 font-thin">This is what <span class="font-semibold">you have to do </span>to be a full member of slava.</div>
       </div><!-- /row -->
       <div class="row content-row">
-        <div class="col-12 col-lg-3 col-sm-6">
+        <div class="col-md-12 col-lg-3 col-sm-6">
           <p><i class="icon icon-eye-open"></i></p>
           <h2 class="font-thin">Attend all of the <span class="font-semibold">Monthly Meetings</span></h2>
           <h4 class="font-thin">Slava meets once a month on Friday B block. If you have to miss a meeting for any reason you must notify the Slava officers at tjhsstslava@gmail.com 24 hours in advance or else service hour points will be deducted.</h4>
-        </div><!-- /col12 -->
-        <div class="col-12 col-lg-3 col-sm-6">
+        </div><!-- /col-md-12 -->
+        <div class="col-md-12 col-lg-3 col-sm-6">
           <p><i class="icon icon-pencil"></i></p>
           <h2 class="font-thin">Fulfill Your  <span class="font-semibold">Service Hour Duties</span></h2>
           <h4 class="font-thin">You must complete at least ____ points worth of service hours each semester to remain a part of Slava.</h4>
-        </div><!-- /col12 -->
-        <div class="col-12 col-lg-3 col-sm-6">
+        </div><!-- /col-md-12 -->
+        <div class="col-md-12 col-lg-3 col-sm-6">
           <p><i class="icon icon-tablet"></i></p>
           <h2 class="font-thin"><span class="font-semibold">Log Your Hours</span></h2>
           <h4 class="font-thin">Google form is at the bottom of this page.</h4>
-        </div><!-- /col12 -->
-        <div class="col-12 col-lg-3 col-sm-6">
+        </div><!-- /col-md-12 -->
+        <div class="col-md-12 col-lg-3 col-sm-6">
           <p><i class="icon icon-pencil"></i></p>
           <h2 class="font-semibold">Be the Chair of your very own Slava event</h2>
           <h4 class="font-thin">In order to secure your position as a full-fledged Slava member, you must be the lead chair in your own Slava event. We will discuss and assign events at one of the Slava meetings.</h4>
-        </div><!-- /col12 -->
+        </div><!-- /col-md-12 -->
       </div><!-- /row -->
     </div><!-- /container -->
   </div><!-- /slide2 -->
 
   <!-- === Slide 3 === -->
-  <div class="slide story" id="slide-2" data-slide="2">
-    <div class="container">
-      <iframe src="https://docs.google.com/forms/d/1F1A2ZovCJG1XLjwE8ZYLAG9D-664kF02fC0cwpYyj0M/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </div><!-- /container -->
+  <div class="slide story" id="slide-3" data-slide="3">
   </div><!-- /slide3 -->
 
-</body>
+  <!-- === Slide 4 === -->
+  <div class="slide story" id="slide-4" data-slide="4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <iframe src="https://docs.google.com/forms/d/1F1A2ZovCJG1XLjwE8ZYLAG9D-664kF02fC0cwpYyj0M/viewform?embedded=true" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div><!-- /col-12 -->
+      </div><!-- /row -->
+    </div><!-- /container -->
+  </div><!-- /slide4 -->
 
   <!-- SCRIPTS -->
   <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -150,5 +153,7 @@
     });
   });
   </script>
+
+</body>
 
 </html>
